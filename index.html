@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="shortcut icon" href="./Assets/images/weather-news.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="search-bar">
+      <form action="#" class="location-search">
+        <label for="location" class="loc-label">Enter your location: </label>
+        <input type="search" name="location" id="location" autocomplete="off" />
+      </form>
+    </div>
+    <div class="page-container">
+      <div class="weather-info">
+        <div class="weather-description">MOSTLY SUNNY</div>
+        <div class="weather-location">London, uk</div>
+        <div class="wather-details-container">
+          <div class="wether-temp">45<sup class="temp-sup">&#x2103;</sup></div>
+          <div class="wather-details">
+            <p class="weather-data" data-feels-like>
+              Feels like: 20<sup>&#x2103;</sup>
+            </p>
+            <p class="weather-data" data-wind>WIND: 5 KMH</p>
+            <p class="weather-data" data-humidity>HUMIDITY: 69%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
